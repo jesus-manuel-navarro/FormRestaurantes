@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import GoogleSignIn
+import FirebaseCore
+import FirebaseAuth
 
 struct ContentView: View {
     

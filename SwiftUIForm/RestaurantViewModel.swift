@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import FirebaseFirestore
+
 
 class RestaurantViewModel: ObservableObject {
     
@@ -15,16 +15,7 @@ class RestaurantViewModel: ObservableObject {
     @Published var showSettings: Bool = false
 
     @ObservedObject var almacen: SettingStore
-    
-    private var dataBaseReference = Firestore.firestore().collection("Restaurantes")
-    
-    //Función para agregar datos a la base de datos
-    
-    //Función para leer datos
-    
-    //Función para actualizar datos
-    
-    //Función para borrar datos
+ 
 
     init(almacen: SettingStore) {
         
